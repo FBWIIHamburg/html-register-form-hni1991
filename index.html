@@ -3,54 +3,77 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>register</title>
+    <title>Register Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="./register/style.css" />
 </head>
 <body>
     <div class="tb">
         <table>
 
 <tr>
-    <td> Name</td>
+    <td> Name :</td>
     <td> <input type="text" placeholder="Name"></td>
 </tr>
 <tr>
-    <td> Last Name</td>
+    <td> Last Name :</td>
     <td> <input type="text" placeholder="Last Name"></td>
 </tr>
 <tr>
-    <td> E-mail</td>
+    <td> E-mail :</td>
     <td> <input type="text" placeholder="E-Mail"></td>
 </tr>
 <tr>
-    <td> Tel.</td>
-    <td> <input type="text" placeholder="Phone Number"></td>
+    <td> Tel. :</td>
+    <td> <input type="number" placeholder="Phone Number"></td>
 </tr>
 <tr>
-    <td> date</td>
+    <td> Date Of Birth :</td>
     <td> <input type="date"></td>
 </tr>
 <tr>
-    <td> Photo</td>
+    <td> Photo :</td>
     <td> <input type="file" accept="image/*" placeholder="photo"></td>
+</tr>
+<tr>
+    <td> Gender :</td>
+    <td> <input type="radio" width="15px" value="Men" style="margin-left: 0px;"> Man</td>
+    <td> <input type="radio" width="15px" value="Men" style="margin-left: 0px;"> Womane</td>
+</tr>
+
+
+<tr>
+    <td> Address :</td>
+    <td>  <textarea name="address" id="" cols="30" rows="5" placeholder="Address"></textarea>
+    </td>
+</tr>
+<tr>
+    <td> Land :</td>
+    <td> 
+        <select name="" id="">
+         <option value="none">-Select-</option>
+        <option value="Deutschland">Deutschland</option>
+        <option value="Iran">Iran</option>
+        <option value="Poland">Poland</option>
+        <option value="U.S">U.S</option>
+        <option value="Syuria">Syuria</option>
+        <option value="Irak">Irak</option>
+        <option value="Nederland">Nederland</option>
+    </select>
+    </td>
+    <tr>
+            <td> City :</td>
+            <td> <input type="text" placeholder="City"></td>
+        </tr>
+        <tr>
+                <td> Postal Code :</td>
+                <td> <input type="number" placeholder="Zipcode"></td>
+            </tr>
 </tr>
 
 
         </table>
     </div>
 
-    <style>
-    
-    .tb{
-        position: relative;
-      margin: 50%;
-
-    }
-    
-    
-    
-    </style>
 </body>
 </html>

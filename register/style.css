@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: silver;
+}
+.tb{
+background-color: darkslategrey;
+width: 480px;
+height: 400px;
+margin-left: 30%;
+margin-top: 5%;
+position: relative;
+padding: 10px;
+}
+tr{
+    margin-top: 10px;
+    margin-left: 3px;
+
+}
+td{
+    animation: lod2 2s;
+
+}
+.tb input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px green solid;
+    margin-left: 15px;
+
+    
+}
+.tb select{
+    background-color: transparent;
+}
+.tb textarea{
+    background-color: transparent;
+
+}
+
+
