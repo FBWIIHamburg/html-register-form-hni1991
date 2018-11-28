@@ -1,10 +1,11 @@
 body{
     margin: 0;
     padding: 0;
-    background: silver;
+    background: black;
 }
 .tb{
-background-color: darkslategrey;
+    border-radius: 30px;
+background-color: #636e72;
 width: 480px;
 height: 400px;
 margin-left: 30%;
@@ -25,10 +26,16 @@ td{
     background-color: transparent;
     border: none;
     outline: none;
-    border-bottom: 2px green solid;
+    border-bottom: 2px #ffeaa7 solid;
     margin-left: 15px;
-
-    
+    color: white;
+ 
+}
+.tb input::placeholder{
+    color: white;
+}
+.tb textarea::placeholder{
+    color: white;
 }
 .tb select{
     background-color: transparent;
