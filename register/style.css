@@ -41,6 +41,7 @@ td{
     background-color: transparent;
 }
 .tb textarea{
+    outline: none;
     background-color: transparent;
 
 }
